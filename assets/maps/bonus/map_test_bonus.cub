@@ -1,0 +1,18 @@
+SO ./assets/textures/brickwall.xpm
+WE ./assets/textures/brickwall.xpm
+NO ./assets/textures/brickwall.xpm
+EA ./assets/textures/brickwall.xpm
+
+C 0, 0, 50
+F 30, 30, 30
+
+111111111
+111000111
+11111D111
+111C0C111
+10D0C0D01
+111000111
+  11N11
+  11D11
+  11011
+  11111

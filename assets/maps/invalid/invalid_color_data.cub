@@ -1,0 +1,15 @@
+SO assets/textures/steelwall.xpm
+WE assets/textures/posterwall.xpm
+NO assets/textures/bluewalls.xpm
+EA ./assets/textures/brickwall.xpm
+
+C 0, 0,,,,, 50
+F 30, 30, 30
+
+11111
+10001
+11011
+11011
+10N01
+10001
+11111

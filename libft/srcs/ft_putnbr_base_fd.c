@@ -1,0 +1,29 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_putnbr_base_fd.c                                :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: edelplan <edelplan@42.student.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/04/12 15:29:51 by edelplan          #+#    #+#             */
+/*   Updated: 2024/08/30 18:10:30 by edelplan         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "libft.h"
+
+void	ft_putnbr_base_fd(uintptr_t nb, int fd, int base)
+{
+	if (nb > 9)
+		ft_putnbr_base_fd((nb / base), fd, base);
+	ft_putchar_fd("0123456789abcdef"[nb % base], fd);
+}
+
+/*
+This is just a less glorified iota that return nothing and just write.
+Doesn't allocate shit either.
+
+void	ft_putnbr_fd(int n, int fd)
+{
+	ft_putstr_fd(ft_itoa(n),fd);
+}}*/

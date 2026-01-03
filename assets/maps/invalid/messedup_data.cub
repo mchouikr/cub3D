@@ -1,0 +1,15 @@
+ SO ./assets/textures/bluewalls.xpm
+EA ./assets/textures/brickwall.xpm
+WE ./assets/textures/graywalls.xpm
+NO ./assets/textures/steelwall.xpm
+
+error
+
+C 135, 206, 235
+F 105, 105, 105
+
+ 111
+10101 111
+1N101 101
+10001 111
+11111
